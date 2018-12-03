@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Requests\Administrator;
+namespace Qiangzi\LaravelCms\Http\Requests\Administrator;
 
 use Illuminate\Validation\Rule;
 

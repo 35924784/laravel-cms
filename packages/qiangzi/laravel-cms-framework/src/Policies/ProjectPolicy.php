@@ -13,10 +13,10 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Policies;
+namespace Qiangzi\LaravelCms\Policies;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Models\Project;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Models\Project;
 
 class ProjectPolicy extends Policy
 {

@@ -13,14 +13,14 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers;
+namespace Qiangzi\LaravelCms\Http\Controllers;
 
 use Auth;
 use Hash;
-use Wanglelecc\Laracms\Models\User;
+use Qiangzi\LaravelCms\Models\User;
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Handlers\UploadHandler;
-use Wanglelecc\Laracms\Http\Requests\UserRequest;
+use Qiangzi\LaravelCms\Handlers\UploadHandler;
+use Qiangzi\LaravelCms\Http\Requests\UserRequest;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\ValidationException;
 
@@ -28,7 +28,7 @@ use Illuminate\Validation\ValidationException;
  * 前台用户控制器
  *
  * Class UserController
- * @package Wanglelecc\Laracms\Http\Controllers
+ * @package Qiangzi\LaravelCms\Http\Controllers
  */
 class UserController extends Controller
 {

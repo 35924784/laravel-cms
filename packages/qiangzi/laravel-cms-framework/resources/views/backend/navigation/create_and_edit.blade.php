@@ -20,12 +20,12 @@
             $category_id = get_value($params, 'category_id', 0);
             $page_id = get_value($params, 'page_id', 0);
 
-            $navigationHandler = app(\Wanglelecc\Laracms\Handlers\NavigationHandler::class);
+            $navigationHandler = app(\Qiangzi\LaravelCms\Handlers\NavigationHandler::class);
             $navigationItemsByResult = $navigationHandler->getNavigations($category);
             $navigationItems = $navigationHandler->select($navigationItemsByResult);
             $pageItems = $navigationHandler->getPageList();
 
-            $categoryHandler = app(\Wanglelecc\Laracms\Handlers\CategoryHandler::class);
+            $categoryHandler = app(\Qiangzi\LaravelCms\Handlers\CategoryHandler::class);
             $categoryItems = $categoryHandler->select($categoryHandler->getCategorys('article'));
     @endphp
 

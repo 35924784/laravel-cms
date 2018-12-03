@@ -1,6 +1,6 @@
 <?php
 
-namespace Wanglelecc\Laracms\Providers;
+namespace Qiangzi\LaravelCms\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,25 +13,25 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-		 \Wanglelecc\Laracms\Models\WechatResponse::class                  => \Wanglelecc\Laracms\Policies\WechatResponsePolicy::class,
-		 \Wanglelecc\Laracms\Models\WechatMenu::class                      => \Wanglelecc\Laracms\Policies\WechatMenuPolicy::class,
-		 \Wanglelecc\Laracms\Models\Wechat::class                          => \Wanglelecc\Laracms\Policies\WechatPolicy::class,
-		 \Wanglelecc\Laracms\Models\Article::class                         => \Wanglelecc\Laracms\Policies\ArticlePolicy::class,
-		 \Wanglelecc\Laracms\Models\Block::class                           => \Wanglelecc\Laracms\Policies\BlockPolicy::class,
-		 \Wanglelecc\Laracms\Models\Link::class                            => \Wanglelecc\Laracms\Policies\LinkPolicy::class,
-		 \Wanglelecc\Laracms\Models\Project::class                         => \Wanglelecc\Laracms\Policies\ProjectPolicy::class,
-		 \Wanglelecc\Laracms\Models\Slide::class                           => \Wanglelecc\Laracms\Policies\SlidePolicy::class,
-		 \Wanglelecc\Laracms\Models\Category::class                        => \Wanglelecc\Laracms\Policies\CategoryPolicy::class,
-		 \Wanglelecc\Laracms\Models\Navigation::class                      => \Wanglelecc\Laracms\Policies\NavigationPolicy::class,
-		 \Wanglelecc\Laracms\Models\File::class                            => \Wanglelecc\Laracms\Policies\FilePolicy::class,
-		 \Wanglelecc\Laracms\Models\Setting::class                         => \Wanglelecc\Laracms\Policies\SettingPolicy::class,
-         \Wanglelecc\Laracms\Models\User::class                            => \Wanglelecc\Laracms\Policies\UserPolicy::class,
-         \Wanglelecc\Laracms\Models\Page::class                            => \Wanglelecc\Laracms\Policies\PagePolicy::class,
-         \Wanglelecc\Laracms\Models\Reply::class                           => \Wanglelecc\Laracms\Policies\ReplyPolicy::class,
-         \Wanglelecc\Laracms\Models\Form::class                            => \Wanglelecc\Laracms\Policies\FormPolicy::class,
+		 \Qiangzi\LaravelCms\Models\WechatResponse::class                  => \Qiangzi\LaravelCms\Policies\WechatResponsePolicy::class,
+		 \Qiangzi\LaravelCms\Models\WechatMenu::class                      => \Qiangzi\LaravelCms\Policies\WechatMenuPolicy::class,
+		 \Qiangzi\LaravelCms\Models\Wechat::class                          => \Qiangzi\LaravelCms\Policies\WechatPolicy::class,
+		 \Qiangzi\LaravelCms\Models\Article::class                         => \Qiangzi\LaravelCms\Policies\ArticlePolicy::class,
+		 \Qiangzi\LaravelCms\Models\Block::class                           => \Qiangzi\LaravelCms\Policies\BlockPolicy::class,
+		 \Qiangzi\LaravelCms\Models\Link::class                            => \Qiangzi\LaravelCms\Policies\LinkPolicy::class,
+		 \Qiangzi\LaravelCms\Models\Project::class                         => \Qiangzi\LaravelCms\Policies\ProjectPolicy::class,
+		 \Qiangzi\LaravelCms\Models\Slide::class                           => \Qiangzi\LaravelCms\Policies\SlidePolicy::class,
+		 \Qiangzi\LaravelCms\Models\Category::class                        => \Qiangzi\LaravelCms\Policies\CategoryPolicy::class,
+		 \Qiangzi\LaravelCms\Models\Navigation::class                      => \Qiangzi\LaravelCms\Policies\NavigationPolicy::class,
+		 \Qiangzi\LaravelCms\Models\File::class                            => \Qiangzi\LaravelCms\Policies\FilePolicy::class,
+		 \Qiangzi\LaravelCms\Models\Setting::class                         => \Qiangzi\LaravelCms\Policies\SettingPolicy::class,
+         \Qiangzi\LaravelCms\Models\User::class                            => \Qiangzi\LaravelCms\Policies\UserPolicy::class,
+         \Qiangzi\LaravelCms\Models\Page::class                            => \Qiangzi\LaravelCms\Policies\PagePolicy::class,
+         \Qiangzi\LaravelCms\Models\Reply::class                           => \Qiangzi\LaravelCms\Policies\ReplyPolicy::class,
+         \Qiangzi\LaravelCms\Models\Form::class                            => \Qiangzi\LaravelCms\Policies\FormPolicy::class,
 
-         \Spatie\Permission\Models\Role::class                             => \Wanglelecc\Laracms\Policies\RolePolicy::class,
-         \Spatie\Permission\Models\Permission::class                       => \Wanglelecc\Laracms\Policies\PermissionPolicy::class,
+         \Spatie\Permission\Models\Role::class                             => \Qiangzi\LaravelCms\Policies\RolePolicy::class,
+         \Spatie\Permission\Models\Permission::class                       => \Qiangzi\LaravelCms\Policies\PermissionPolicy::class,
     ];
 
     /**

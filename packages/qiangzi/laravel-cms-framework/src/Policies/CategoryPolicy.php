@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Policies;
+namespace Qiangzi\LaravelCms\Policies;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Models\Category;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Models\Category;
 
 /**
  * 分类授权策略
  *
  * Class CategoryPolicy
- * @package Wanglelecc\Laracms\Policies
+ * @package Qiangzi\LaravelCms\Policies
  */
 class CategoryPolicy extends Policy
 {

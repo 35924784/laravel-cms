@@ -13,19 +13,19 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Requests\Administrator\NavigationRequest;
+use Qiangzi\LaravelCms\Http\Requests\Administrator\NavigationRequest;
 use Illuminate\Support\Facades\View;
-use Wanglelecc\Laracms\Models\Navigation;
-use Wanglelecc\Laracms\Handlers\NavigationHandler;
+use Qiangzi\LaravelCms\Models\Navigation;
+use Qiangzi\LaravelCms\Handlers\NavigationHandler;
 
 /**
  * 导航控制器
  *
  * Class NavigationsController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class NavigationsController extends Controller
 {

@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Policies;
+namespace Qiangzi\LaravelCms\Policies;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Models\Page;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Models\Page;
 
 /**
  * 页面授权策略
  *
  * Class PagePolicy
- * @package Wanglelecc\Laracms\Policies
+ * @package Qiangzi\LaravelCms\Policies
  */
 class PagePolicy extends Policy
 {

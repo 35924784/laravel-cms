@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Models;
+namespace Qiangzi\LaravelCms\Models;
 
 use Auth;
 use Tymon\JWTAuth\Contracts\JWTSubject;
@@ -22,8 +22,8 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\Permission\Traits\HasRoles;
-use Wanglelecc\Laracms\Models\Traits\WithOrderHelper;
-use Wanglelecc\Laracms\Events\BehaviorLogEvent;
+use Qiangzi\LaravelCms\Models\Traits\WithOrderHelper;
+use Qiangzi\LaravelCms\Events\BehaviorLogEvent;
 
 /**
  * 用户模型

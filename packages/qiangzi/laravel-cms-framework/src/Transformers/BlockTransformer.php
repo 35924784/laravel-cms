@@ -13,9 +13,9 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Transformers;
+namespace Qiangzi\LaravelCms\Transformers;
 
-use Wanglelecc\Laracms\Models\Block;
+use Qiangzi\LaravelCms\Models\Block;
 use League\Fractal\TransformerAbstract;
 
 class BlockTransformer extends TransformerAbstract

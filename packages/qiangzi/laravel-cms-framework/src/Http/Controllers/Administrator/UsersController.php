@@ -13,23 +13,23 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
 use Hash;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Role;
-//use Wanglelecc\Laracms\Models\User;
+//use Qiangzi\LaravelCms\Models\User;
 use Illuminate\Support\Facades\Validator;
-use Wanglelecc\Laracms\Http\Requests\Administrator\UserRequest;
-use Wanglelecc\Laracms\Handlers\UploadHandler;
+use Qiangzi\LaravelCms\Http\Requests\Administrator\UserRequest;
+use Qiangzi\LaravelCms\Handlers\UploadHandler;
 
 
 /**
  * 用户控制器
  *
  * Class UsersController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class UsersController extends Controller
 {

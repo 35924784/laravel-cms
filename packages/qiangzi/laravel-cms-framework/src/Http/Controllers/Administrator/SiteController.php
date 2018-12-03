@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Models\Setting;
+use Qiangzi\LaravelCms\Models\Setting;
 
 /**
  * 站点相关信息控制器
  *
  * Class SiteController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class SiteController extends Controller
 {

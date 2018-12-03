@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Policies;
+namespace Qiangzi\LaravelCms\Policies;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Models\WechatResponse;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Models\WechatResponse;
 
 /**
  * 微信响应授权策略
  *
  * Class WechatResponsePolicy
- * @package Wanglelecc\Laracms\Policies
+ * @package Qiangzi\LaravelCms\Policies
  */
 class WechatResponsePolicy extends Policy
 {

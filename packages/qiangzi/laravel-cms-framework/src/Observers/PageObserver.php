@@ -13,9 +13,9 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Observers;
+namespace Qiangzi\LaravelCms\Observers;
 
-use Wanglelecc\Laracms\Models\Page;
+use Qiangzi\LaravelCms\Models\Page;
 use Illuminate\Support\Facades\Auth;
 
 // creating, created, updating, updated, saving,
@@ -25,7 +25,7 @@ use Illuminate\Support\Facades\Auth;
  * 单页面观察者
  *
  * Class PageObserver
- * @package Wanglelecc\Laracms\Observers
+ * @package Qiangzi\LaravelCms\Observers
  */
 class PageObserver
 {

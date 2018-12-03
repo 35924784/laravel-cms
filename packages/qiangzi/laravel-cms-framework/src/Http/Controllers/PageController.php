@@ -13,17 +13,17 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers;
+namespace Qiangzi\LaravelCms\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Models\Page;
-use Wanglelecc\Laracms\Models\Navigation;
+use Qiangzi\LaravelCms\Models\Page;
+use Qiangzi\LaravelCms\Models\Navigation;
 
 /**
  * 页面控制器
  *
  * Class PageController
- * @package Wanglelecc\Laracms\Http\Controllers
+ * @package Qiangzi\LaravelCms\Http\Controllers
  */
 class PageController extends Controller
 {

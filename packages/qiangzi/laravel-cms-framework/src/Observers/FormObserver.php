@@ -13,11 +13,11 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Observers;
+namespace Qiangzi\LaravelCms\Observers;
 
 use Ip;
 use Request;
-use Wanglelecc\Laracms\Models\Form;
+use Qiangzi\LaravelCms\Models\Form;
 use Illuminate\Support\Facades\Auth;
 
 
@@ -28,7 +28,7 @@ use Illuminate\Support\Facades\Auth;
  * 表单观察者
  *
  * Class LinkObserver
- * @package Wanglelecc\Laracms\Observers
+ * @package Qiangzi\LaravelCms\Observers
  */
 class FormObserver
 {

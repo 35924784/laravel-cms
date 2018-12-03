@@ -13,11 +13,11 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Api;
+namespace Qiangzi\LaravelCms\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 use Dingo\Api\Routing\Helpers;
-use Wanglelecc\Laracms\Http\Controllers\Controller as BaseController;
+use Qiangzi\LaravelCms\Http\Controllers\Controller as BaseController;
 
 class Controller extends BaseController
 {

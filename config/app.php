@@ -173,15 +173,15 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        Wanglelecc\Laracms\Providers\AliyunOssServiceProvider::class,
-        Wanglelecc\Laracms\Providers\AppServiceProvider::class,
-        Wanglelecc\Laracms\Providers\AuthServiceProvider::class,
-        Wanglelecc\Laracms\Providers\AzureStorageServiceProvider::class,
-        Wanglelecc\Laracms\Providers\EasySmsServiceProvider::class,
-        Wanglelecc\Laracms\Providers\EventServiceProvider::class,
-        Wanglelecc\Laracms\Providers\LaracmsServiceProvider::class,
-        Wanglelecc\Laracms\Providers\RouteServiceProvider::class,
-        Wanglelecc\Laracms\Providers\ScoutServiceProvider::class
+        Qiangzi\LaravelCms\Providers\AliyunOssServiceProvider::class,
+        Qiangzi\LaravelCms\Providers\AppServiceProvider::class,
+        Qiangzi\LaravelCms\Providers\AuthServiceProvider::class,
+        Qiangzi\LaravelCms\Providers\AzureStorageServiceProvider::class,
+        Qiangzi\LaravelCms\Providers\EasySmsServiceProvider::class,
+        Qiangzi\LaravelCms\Providers\EventServiceProvider::class,
+        Qiangzi\LaravelCms\Providers\LaracmsServiceProvider::class,
+        Qiangzi\LaravelCms\Providers\RouteServiceProvider::class,
+        Qiangzi\LaravelCms\Providers\ScoutServiceProvider::class,
     ],
 
     /*

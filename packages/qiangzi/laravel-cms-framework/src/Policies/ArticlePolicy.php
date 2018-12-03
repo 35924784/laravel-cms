@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Policies;
+namespace Qiangzi\LaravelCms\Policies;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Models\Article;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Models\Article;
 
 /**
  * 文章授权策略
  *
  * Class ArticlePolicy
- * @package Wanglelecc\Laracms\Policies
+ * @package Qiangzi\LaravelCms\Policies
  */
 class ArticlePolicy extends Policy
 {

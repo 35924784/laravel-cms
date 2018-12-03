@@ -13,17 +13,17 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers;
+namespace Qiangzi\LaravelCms\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Models\Form;
-use Wanglelecc\Laracms\Http\Requests\FormRequest;
+use Qiangzi\LaravelCms\Models\Form;
+use Qiangzi\LaravelCms\Http\Requests\FormRequest;
 
 /**
  * 表单制器
  *
  * Class PageController
- * @package Wanglelecc\Laracms\Http\Controllers
+ * @package Qiangzi\LaravelCms\Http\Controllers
  */
 class FormController extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Wanglelecc\Laracms\Http\Middleware;
+namespace Qiangzi\LaravelCms\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

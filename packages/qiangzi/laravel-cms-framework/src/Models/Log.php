@@ -13,13 +13,13 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Models;
+namespace Qiangzi\LaravelCms\Models;
 
 /**
  * 日志模型
  * 
  * Class Log
- * @package Wanglelecc\Laracms\Models
+ * @package Qiangzi\LaravelCms\Models
  */
 class Log extends Model
 {

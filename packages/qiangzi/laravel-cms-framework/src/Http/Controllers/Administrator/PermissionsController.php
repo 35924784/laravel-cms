@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Model;
@@ -24,7 +24,7 @@ use Spatie\Permission\Models\Role;
  * 权限控制器
  *
  * Class PermissionsController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class PermissionsController extends Controller
 {

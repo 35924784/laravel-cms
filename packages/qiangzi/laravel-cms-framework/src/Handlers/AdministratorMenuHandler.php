@@ -13,13 +13,13 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Handlers;
+namespace Qiangzi\LaravelCms\Handlers;
 
 /**
  * 后台菜单工具类
  *
  * Class AdministratorMenuHandler
- * @package Wanglelecc\Laracms\Handlers
+ * @package Qiangzi\LaravelCms\Handlers
  */
 class AdministratorMenuHandler
 {

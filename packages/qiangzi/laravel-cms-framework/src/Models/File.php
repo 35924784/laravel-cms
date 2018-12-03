@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Models;
+namespace Qiangzi\LaravelCms\Models;
 
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -23,7 +23,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * 文件模型
  *
  * Class File
- * @package Wanglelecc\Laracms\Models
+ * @package Qiangzi\LaravelCms\Models
  */
 class File extends Model
 {

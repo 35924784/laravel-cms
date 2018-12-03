@@ -13,13 +13,13 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Models;
+namespace Qiangzi\LaravelCms\Models;
 
 /**
  * 中国行政区
  *
  * Class Block
- * @package Wanglelecc\Laracms\Models
+ * @package Qiangzi\LaravelCms\Models
  */
 class District extends Model
 {

@@ -13,17 +13,17 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
-use Wanglelecc\Laracms\Models\Link;
+use Qiangzi\LaravelCms\Models\Link;
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Requests\Administrator\LinkRequest;
+use Qiangzi\LaravelCms\Http\Requests\Administrator\LinkRequest;
 
 /**
  * 友情链接
  *
  * Class LinksController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class LinksController extends Controller
 {

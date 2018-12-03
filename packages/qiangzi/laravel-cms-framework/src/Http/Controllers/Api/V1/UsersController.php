@@ -13,19 +13,19 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Api\V1;
+namespace Qiangzi\LaravelCms\Http\Controllers\Api\V1;
 
-use Wanglelecc\Laracms\Models\User;
+use Qiangzi\LaravelCms\Models\User;
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Requests\Api\V1\UserRequest;
-use Wanglelecc\Laracms\Http\Controllers\Api\Controller;
-use Wanglelecc\Laracms\Transformers\UserTransformer;
+use Qiangzi\LaravelCms\Http\Requests\Api\V1\UserRequest;
+use Qiangzi\LaravelCms\Http\Controllers\Api\Controller;
+use Qiangzi\LaravelCms\Transformers\UserTransformer;
 
 /**
  * 用户控制器
  *
  * Class UsersController
- * @package Wanglelecc\Laracms\Http\Controllers\Api\V1
+ * @package Qiangzi\LaravelCms\Http\Controllers\Api\V1
  */
 class UsersController extends Controller
 {

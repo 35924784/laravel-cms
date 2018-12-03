@@ -13,10 +13,10 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Observers;
+namespace Qiangzi\LaravelCms\Observers;
 
-use Wanglelecc\Laracms\Models\Reply;
-use Wanglelecc\Laracms\Notifications\ArticleReplied;
+use Qiangzi\LaravelCms\Models\Reply;
+use Qiangzi\LaravelCms\Notifications\ArticleReplied;
 
 // creating, created, updating, updated, saving,
 // saved,  deleting, deleted, restoring, restored
@@ -25,7 +25,7 @@ use Wanglelecc\Laracms\Notifications\ArticleReplied;
  * 回复观察者
  *
  * Class ReplyObserver
- * @package Wanglelecc\Laracms\Observers
+ * @package Qiangzi\LaravelCms\Observers
  */
 class ReplyObserver
 {

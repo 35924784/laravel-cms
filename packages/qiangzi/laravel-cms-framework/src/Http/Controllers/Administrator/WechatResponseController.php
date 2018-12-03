@@ -13,18 +13,18 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
-use Wanglelecc\Laracms\Models\Wechat;
-use Wanglelecc\Laracms\Models\WechatResponse;
+use Qiangzi\LaravelCms\Models\Wechat;
+use Qiangzi\LaravelCms\Models\WechatResponse;
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Requests\Administrator\WechatResponseRequest;
+use Qiangzi\LaravelCms\Http\Requests\Administrator\WechatResponseRequest;
 
 /**
  * 微信响应控制器
  *
  * Class WechatResponseController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class WechatResponseController extends Controller
 {

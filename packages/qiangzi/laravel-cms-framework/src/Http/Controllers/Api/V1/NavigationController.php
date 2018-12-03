@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Api\V1;
+namespace Qiangzi\LaravelCms\Http\Controllers\Api\V1;
 
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Controllers\Api\Controller;
+use Qiangzi\LaravelCms\Http\Controllers\Api\Controller;
 
 /**
  * 导航控制器
  *
  * Class NavigationController
- * @package Wanglelecc\Laracms\Http\Controllers\Api\V1
+ * @package Qiangzi\LaravelCms\Http\Controllers\Api\V1
  */
 class NavigationController extends Controller
 {

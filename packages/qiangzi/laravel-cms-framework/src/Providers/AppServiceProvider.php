@@ -13,13 +13,13 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Providers;
+namespace Qiangzi\LaravelCms\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
-use Wanglelecc\Laracms\Models\Setting;
-use Wanglelecc\Laracms\Handlers\AdministratorMenuHandler;
+use Qiangzi\LaravelCms\Models\Setting;
+use Qiangzi\LaravelCms\Handlers\AdministratorMenuHandler;
 
 
 class AppServiceProvider extends ServiceProvider
@@ -32,23 +32,23 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
 	{
 	    // 注册模型观察者
-		\Wanglelecc\Laracms\Models\User::observe(                  \Wanglelecc\Laracms\Observers\UserObserver::class);
-		\Wanglelecc\Laracms\Models\WechatMenu::observe(            \Wanglelecc\Laracms\Observers\WechatMenuObserver::class);
-		\Wanglelecc\Laracms\Models\Wechat::observe(                \Wanglelecc\Laracms\Observers\WechatObserver::class);
-		\Wanglelecc\Laracms\Models\Block::observe(                 \Wanglelecc\Laracms\Observers\BlockObserver::class);
-		\Wanglelecc\Laracms\Models\Link::observe(                  \Wanglelecc\Laracms\Observers\LinkObserver::class);
-		\Wanglelecc\Laracms\Models\Project::observe(               \Wanglelecc\Laracms\Observers\ProjectObserver::class);
-		\Wanglelecc\Laracms\Models\Category::observe(              \Wanglelecc\Laracms\Observers\CategoryObserver::class);
-		\Wanglelecc\Laracms\Models\Navigation::observe(            \Wanglelecc\Laracms\Observers\NavigationObserver::class);
-		\Wanglelecc\Laracms\Models\Page::observe(                  \Wanglelecc\Laracms\Observers\PageObserver::class);
-		\Wanglelecc\Laracms\Models\Article::observe(               \Wanglelecc\Laracms\Observers\ArticleObserver::class);
-		\Wanglelecc\Laracms\Models\Slide::observe(                 \Wanglelecc\Laracms\Observers\SlideObserver::class);
-		\Wanglelecc\Laracms\Models\File::observe(                  \Wanglelecc\Laracms\Observers\FileObserver::class);
-		\Wanglelecc\Laracms\Models\WechatResponse::observe(        \Wanglelecc\Laracms\Observers\WechatResponseObserver::class);
-		\Wanglelecc\Laracms\Models\Reply::observe(                 \Wanglelecc\Laracms\Observers\ReplyObserver::class);
-		\Wanglelecc\Laracms\Models\Log::observe(                   \Wanglelecc\Laracms\Observers\LogObserver::class);
-		\Wanglelecc\Laracms\Models\MultipleFile::observe(          \Wanglelecc\Laracms\Observers\MultipleFileObserver::class);
-		\Wanglelecc\Laracms\Models\Form::observe(                  \Wanglelecc\Laracms\Observers\FormObserver::class);
+		\Qiangzi\LaravelCms\Models\User::observe(                  \Qiangzi\LaravelCms\Observers\UserObserver::class);
+		\Qiangzi\LaravelCms\Models\WechatMenu::observe(            \Qiangzi\LaravelCms\Observers\WechatMenuObserver::class);
+		\Qiangzi\LaravelCms\Models\Wechat::observe(                \Qiangzi\LaravelCms\Observers\WechatObserver::class);
+		\Qiangzi\LaravelCms\Models\Block::observe(                 \Qiangzi\LaravelCms\Observers\BlockObserver::class);
+		\Qiangzi\LaravelCms\Models\Link::observe(                  \Qiangzi\LaravelCms\Observers\LinkObserver::class);
+		\Qiangzi\LaravelCms\Models\Project::observe(               \Qiangzi\LaravelCms\Observers\ProjectObserver::class);
+		\Qiangzi\LaravelCms\Models\Category::observe(              \Qiangzi\LaravelCms\Observers\CategoryObserver::class);
+		\Qiangzi\LaravelCms\Models\Navigation::observe(            \Qiangzi\LaravelCms\Observers\NavigationObserver::class);
+		\Qiangzi\LaravelCms\Models\Page::observe(                  \Qiangzi\LaravelCms\Observers\PageObserver::class);
+		\Qiangzi\LaravelCms\Models\Article::observe(               \Qiangzi\LaravelCms\Observers\ArticleObserver::class);
+		\Qiangzi\LaravelCms\Models\Slide::observe(                 \Qiangzi\LaravelCms\Observers\SlideObserver::class);
+		\Qiangzi\LaravelCms\Models\File::observe(                  \Qiangzi\LaravelCms\Observers\FileObserver::class);
+		\Qiangzi\LaravelCms\Models\WechatResponse::observe(        \Qiangzi\LaravelCms\Observers\WechatResponseObserver::class);
+		\Qiangzi\LaravelCms\Models\Reply::observe(                 \Qiangzi\LaravelCms\Observers\ReplyObserver::class);
+		\Qiangzi\LaravelCms\Models\Log::observe(                   \Qiangzi\LaravelCms\Observers\LogObserver::class);
+		\Qiangzi\LaravelCms\Models\MultipleFile::observe(          \Qiangzi\LaravelCms\Observers\MultipleFileObserver::class);
+		\Qiangzi\LaravelCms\Models\Form::observe(                  \Qiangzi\LaravelCms\Observers\FormObserver::class);
 
         // 设置时区
         \Carbon\Carbon::setLocale('zh');

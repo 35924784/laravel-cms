@@ -35,7 +35,7 @@ $api = app('Dingo\Api\Routing\Router');
  * -----------------------------------------------------------------------
  */
 $api->version('v1', [
-    'namespace' => 'Wanglelecc\Laracms\Http\Controllers\Api\V1',
+    'namespace' => 'Qiangzi\LaravelCms\Http\Controllers\Api\V1',
     'middleware' => 'serializer:array',
 ], function($api) {
 
@@ -107,7 +107,7 @@ $api->version('v1', [
  * -----------------------------------------------------------------------
  */
 $api->version('v2', [
-    'namespace' => 'Wanglelecc\Laracms\Http\Controllers\Api\V2'
+    'namespace' => 'Qiangzi\LaravelCms\Http\Controllers\Api\V2'
 ], function($api) {
 
 

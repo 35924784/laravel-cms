@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Policies;
+namespace Qiangzi\LaravelCms\Policies;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Models\Reply;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Models\Reply;
 
 /**
  * 回复授权策略
  *
  * Class ReplyPolicy
- * @package Wanglelecc\Laracms\Policies
+ * @package Qiangzi\LaravelCms\Policies
  */
 class ReplyPolicy extends Policy
 {

@@ -16,7 +16,7 @@
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-use Wanglelecc\Laracms\Models\Setting;
+use Qiangzi\LaravelCms\Models\Setting;
 
 class SeedSettingsData extends Migration
 {

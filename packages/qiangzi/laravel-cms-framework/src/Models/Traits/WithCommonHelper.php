@@ -13,19 +13,19 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Models\Traits;
+namespace Qiangzi\LaravelCms\Models\Traits;
 
 use Carbon\Carbon;
 use Cache;
 use DB;
-use Wanglelecc\Laracms\Models\Category;
+use Qiangzi\LaravelCms\Models\Category;
 use Illuminate\Support\Facades\Storage;
 
 /**
  * 模型公共功能方法
  *
  * Trait WithCommonHelper
- * @package Wanglelecc\Laracms\Models\Traits
+ * @package Qiangzi\LaravelCms\Models\Traits
  */
 trait WithCommonHelper
 {

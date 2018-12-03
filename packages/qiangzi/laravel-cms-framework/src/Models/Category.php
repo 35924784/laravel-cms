@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Models;
+namespace Qiangzi\LaravelCms\Models;
 
 use DB;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -22,7 +22,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * 分类模型
  *
  * Class Category
- * @package Wanglelecc\Laracms\Models
+ * @package Qiangzi\LaravelCms\Models
  */
 class Category extends Model
 {
@@ -35,7 +35,7 @@ class Category extends Model
     
     public function articles(){
         return $this->belongsToMany(
-            'Wanglelecc\Laracms\Models\Article',
+            'Qiangzi\LaravelCms\Models\Article',
             'article_category',
             'category_id',
             'article_id'

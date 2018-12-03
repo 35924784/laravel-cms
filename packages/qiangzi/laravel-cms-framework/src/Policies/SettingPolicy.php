@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Policies;
+namespace Qiangzi\LaravelCms\Policies;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Models\Setting;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Models\Setting;
 
 /**
  * 设置授权策略
  *
  * Class SettingPolicy
- * @package Wanglelecc\Laracms\Policies
+ * @package Qiangzi\LaravelCms\Policies
  */
 class SettingPolicy extends Policy
 {

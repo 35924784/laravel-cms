@@ -13,18 +13,18 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Api\V1;
+namespace Qiangzi\LaravelCms\Http\Controllers\Api\V1;
 
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Controllers\Api\Controller;
-use Wanglelecc\Laracms\Transformers\BlockTransformer;
-use Wanglelecc\Laracms\Models\Block;
+use Qiangzi\LaravelCms\Http\Controllers\Api\Controller;
+use Qiangzi\LaravelCms\Transformers\BlockTransformer;
+use Qiangzi\LaravelCms\Models\Block;
 
 /**
  * 区块控制器
  *
  * Class BlockController
- * @package Wanglelecc\Laracms\Http\Controllers\Api\V1
+ * @package Qiangzi\LaravelCms\Http\Controllers\Api\V1
  */
 class BlockController extends Controller
 {

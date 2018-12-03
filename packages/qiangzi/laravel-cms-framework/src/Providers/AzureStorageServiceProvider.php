@@ -1,11 +1,11 @@
 <?php
-namespace Wanglelecc\Laracms\Providers;
+namespace Qiangzi\LaravelCms\Providers;
 
 use Storage;
 use Illuminate\Support\ServiceProvider;
 use League\Flysystem\Filesystem;
 use MicrosoftAzure\Storage\Blob\BlobRestProxy;
-use Wanglelecc\Laracms\Adapter\AzureBlobStorageAdapter;
+use Qiangzi\LaravelCms\Adapter\AzureBlobStorageAdapter;
 
 class AzureStorageServiceProvider extends ServiceProvider
 {

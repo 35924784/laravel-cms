@@ -1,6 +1,6 @@
 <?php
 
-namespace Wanglelecc\Laracms\Providers;
+namespace Qiangzi\LaravelCms\Providers;
 
 use Overtrue\EasySms\EasySms;
 use Illuminate\Support\ServiceProvider;

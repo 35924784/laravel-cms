@@ -3,7 +3,7 @@
     $category = get_value($content, 'category', 'desktop');
     $navigation_id = get_value($content, 'navigation_id', 0);
 
-    $handler = app(\Wanglelecc\Laracms\Handlers\NavigationHandler::class);
+    $handler = app(\Qiangzi\LaravelCms\Handlers\NavigationHandler::class);
     $navigations= $handler->select($handler->getNavigations($category));
 @endphp
 <!--

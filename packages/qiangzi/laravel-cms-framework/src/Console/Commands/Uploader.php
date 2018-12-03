@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Console\Commands;
+namespace Qiangzi\LaravelCms\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Storage;
@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Storage;
  * 清理垃圾分片，因为网络中断导致的垃圾分片
  *
  * Class SyncBlock
- * @package Wanglelecc\Laracms\Console\Commands
+ * @package Qiangzi\LaravelCms\Console\Commands
  */
 class Uploader extends Command
 {

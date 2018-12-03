@@ -13,18 +13,18 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Api\V1;
+namespace Qiangzi\LaravelCms\Http\Controllers\Api\V1;
 
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Controllers\Api\Controller;
-use Wanglelecc\Laracms\Http\Requests\Api\V1\VerificationCodeRequest;
+use Qiangzi\LaravelCms\Http\Controllers\Api\Controller;
+use Qiangzi\LaravelCms\Http\Requests\Api\V1\VerificationCodeRequest;
 use Overtrue\EasySms\EasySms;
 
 /**
  * 短信验证码控制器
  *
  * Class VerificationCodesController
- * @package Wanglelecc\Laracms\Http\Controllers\Api\V1
+ * @package Qiangzi\LaravelCms\Http\Controllers\Api\V1
  */
 class VerificationCodesController extends Controller
 {

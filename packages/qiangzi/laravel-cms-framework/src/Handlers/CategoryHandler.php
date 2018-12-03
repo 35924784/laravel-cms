@@ -13,15 +13,15 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Handlers;
+namespace Qiangzi\LaravelCms\Handlers;
 
-use Wanglelecc\Laracms\Models\Category;
+use Qiangzi\LaravelCms\Models\Category;
 
 /**
  * 分类处理工具类
  *
  * Class CategoryHandler
- * @package Wanglelecc\Laracms\Handlers
+ * @package Qiangzi\LaravelCms\Handlers
  */
 class CategoryHandler
 {

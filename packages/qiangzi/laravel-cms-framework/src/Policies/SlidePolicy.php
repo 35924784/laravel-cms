@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Policies;
+namespace Qiangzi\LaravelCms\Policies;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Models\Slide;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Models\Slide;
 
 /**
  * 幻灯授权策略
  *
  * Class SlidePolicy
- * @package Wanglelecc\Laracms\Policies
+ * @package Qiangzi\LaravelCms\Policies
  */
 class SlidePolicy extends Policy
 {

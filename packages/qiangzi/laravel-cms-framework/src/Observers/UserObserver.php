@@ -13,9 +13,9 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Observers;
+namespace Qiangzi\LaravelCms\Observers;
 
-use Wanglelecc\Laracms\Models\User;
+use Qiangzi\LaravelCms\Models\User;
 
 // creating, created, updating, updated, saving,
 // saved,  deleting, deleted, restoring, restored
@@ -24,7 +24,7 @@ use Wanglelecc\Laracms\Models\User;
  * 用户观察者
  *
  * Class UserObserver
- * @package Wanglelecc\Laracms\Observers
+ * @package Qiangzi\LaravelCms\Observers
  */
 class UserObserver
 {

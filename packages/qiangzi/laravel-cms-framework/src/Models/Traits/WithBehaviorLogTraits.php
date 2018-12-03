@@ -13,9 +13,9 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Models\Traits;
+namespace Qiangzi\LaravelCms\Models\Traits;
 
-use Wanglelecc\Laracms\Events\BehaviorLogEvent;
+use Qiangzi\LaravelCms\Events\BehaviorLogEvent;
 
 trait WithBehaviorLogTraits
 {

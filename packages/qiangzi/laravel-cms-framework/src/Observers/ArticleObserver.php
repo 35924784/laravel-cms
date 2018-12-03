@@ -13,9 +13,9 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Observers;
+namespace Qiangzi\LaravelCms\Observers;
 
-use Wanglelecc\Laracms\Models\Article;
+use Qiangzi\LaravelCms\Models\Article;
 use Illuminate\Support\Facades\Auth;
 
 // creating, created, updating, updated, saving,
@@ -25,7 +25,7 @@ use Illuminate\Support\Facades\Auth;
  * 文章观察者
  *
  * Class ArticleObserver
- * @package Wanglelecc\Laracms\Observers
+ * @package Qiangzi\LaravelCms\Observers
  */
 class ArticleObserver
 {
@@ -42,25 +42,28 @@ class ArticleObserver
     {
         $article->updated_op = Auth::id();
     }
-    
-    public function updated(Article $article){
+
+    public function updated(Article $article)
+    {
         Article::clearCache($article->id);
     }
 
-    public function saving(Article $article){
+    public function saving(Article $article)
+    {
         // XSS 过滤
-//        $article->content = clean($article->content, 'user_article_body');
+        $article->content = clean($article->content, 'user_article_body');
 
-        // 生成文章摘录
-//        $article->description = make_excerpt($article->content);
+//         生成文章摘录
+        $article->description = make_excerpt($article->content);
 
         $article->attribute = $article->attribute ?? '{}';
-        if( is_array($article->attribute) ){
+        if (is_array($article->attribute)) {
             $article->attribute = json_encode($article->attribute, JSON_UNESCAPED_UNICODE);
         }
     }
 
-    public function saved(Article $article){
+    public function saved(Article $article)
+    {
         // 分发事件
         $event_class_name = '\\Wanglelecc\\Laracms\\Events\\' . ucfirst($article->type) . 'SavedEvent';
         class_exists($event_class_name) && event(new $event_class_name($article));

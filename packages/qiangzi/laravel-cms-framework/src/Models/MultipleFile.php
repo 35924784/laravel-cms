@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Models;
+namespace Qiangzi\LaravelCms\Models;
 
 use Illuminate\Support\Facades\Storage;
 
@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Storage;
  * 分类模型
  *
  * Class Category
- * @package Wanglelecc\Laracms\Models
+ * @package Qiangzi\LaravelCms\Models
  */
 class MultipleFile extends Model
 {
@@ -34,7 +34,7 @@ class MultipleFile extends Model
 
     public function file()
     {
-        return $this->hasOne('Wanglelecc\Laracms\Models\File', 'path', 'path');
+        return $this->hasOne('Qiangzi\LaravelCms\Models\File', 'path', 'path');
     }
 
     public function toArray()

@@ -13,17 +13,17 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
-use Wanglelecc\Laracms\Models\Wechat;
+use Qiangzi\LaravelCms\Models\Wechat;
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Requests\Administrator\WechatRequest;
+use Qiangzi\LaravelCms\Http\Requests\Administrator\WechatRequest;
 
 /**
  * 微信公众号管理控制器
  *
  * Class WechatsController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class WechatsController extends Controller
 {

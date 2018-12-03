@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers;
+namespace Qiangzi\LaravelCms\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Models\Article;
+use Qiangzi\LaravelCms\Models\Article;
 
 /**
  * 前台公共控制器
  *
  * Class WelcomeController
- * @package Wanglelecc\Laracms\Http\Controllers
+ * @package Qiangzi\LaravelCms\Http\Controllers
  */
 class WelcomeController extends Controller
 {

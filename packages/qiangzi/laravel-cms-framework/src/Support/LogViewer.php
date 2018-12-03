@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Support;
+namespace Qiangzi\LaravelCms\Support;
 
 use Psr\Log\LogLevel;
 

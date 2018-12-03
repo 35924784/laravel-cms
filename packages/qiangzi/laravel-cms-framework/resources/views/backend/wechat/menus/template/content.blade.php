@@ -5,7 +5,7 @@
     $category_name = $data->category_name ?? '';
     $limit = $data->limit ?? 8;
 
-    $categoryHandler = app(\Wanglelecc\Laracms\Handlers\CategoryHandler::class);
+    $categoryHandler = app(\Qiangzi\LaravelCms\Handlers\CategoryHandler::class);
     $category = $categoryHandler->select($categoryHandler->getCategorys('article'));
 @endphp
 <div class="form-group has-feedback has-icon-right">

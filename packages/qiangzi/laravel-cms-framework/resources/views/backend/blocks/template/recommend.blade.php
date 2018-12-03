@@ -2,7 +2,7 @@
     $content = is_json($block->content) ? json_decode($block->content) : new \stdClass();
     $article_ids = get_value($content, 'article_id', []);
 
-    $article = app(\Wanglelecc\Laracms\Models\Article::class);
+    $article = app(\Qiangzi\LaravelCms\Models\Article::class);
     $articles = $article->where('type','<>','page')->orderBy('order', 'desc')->orderBy('id','desc')->get()->pluck('title', 'id')->toArray();
 @endphp
 

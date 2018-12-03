@@ -1,10 +1,10 @@
 <?php
 
-namespace Wanglelecc\Laracms\Observers;
+namespace Qiangzi\LaravelCms\Observers;
 
-use Wanglelecc\Laracms\Models\Project;
-use Wanglelecc\Laracms\Handlers\SlugTranslateHandler;
-use Wanglelecc\Laracms\Jobs\TranslateSlug;
+use Qiangzi\LaravelCms\Models\Project;
+use Qiangzi\LaravelCms\Handlers\SlugTranslateHandler;
+use Qiangzi\LaravelCms\Jobs\TranslateSlug;
 
 // creating, created, updating, updated, saving,
 // saved,  deleting, deleted, restoring, restored

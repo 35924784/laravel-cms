@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Policies;
+namespace Qiangzi\LaravelCms\Policies;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Models\Link;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Models\Link;
 
 /**
  * 链接授权策略
  *
  * Class LinkPolicy
- * @package Wanglelecc\Laracms\Policies
+ * @package Qiangzi\LaravelCms\Policies
  */
 class LinkPolicy extends Policy
 {

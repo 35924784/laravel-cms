@@ -10,7 +10,7 @@
 @section('content')
 
     @php
-        $categoryHandler = app(\Wanglelecc\Laracms\Handlers\CategoryHandler::class);
+        $categoryHandler = app(\Qiangzi\LaravelCms\Handlers\CategoryHandler::class);
         $categorys = $categoryHandler->select($categoryHandler->getCategorys('article'));
         $category_id = request('category', 0);
         $keyword = request('keyword', '');

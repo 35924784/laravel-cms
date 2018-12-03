@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Transformers;
+namespace Qiangzi\LaravelCms\Transformers;
 
 use Spatie\Permission\Models\Role;
 use League\Fractal\TransformerAbstract;

@@ -1,7 +1,7 @@
 <?php
 namespace App\Models;
 
-class User extends \Wanglelecc\Laracms\Models\User
+class User extends \Qiangzi\LaravelCms\Models\User
 {
     
 }

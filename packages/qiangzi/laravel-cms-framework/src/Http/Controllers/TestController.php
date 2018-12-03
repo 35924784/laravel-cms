@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers;
+namespace Qiangzi\LaravelCms\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Log;
@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Redis;
  * 微信控制器
  *
  * Class WeChatController
- * @package Wanglelecc\Laracms\Http\Controllers
+ * @package Qiangzi\LaravelCms\Http\Controllers
  */
 class TestController extends Controller
 {

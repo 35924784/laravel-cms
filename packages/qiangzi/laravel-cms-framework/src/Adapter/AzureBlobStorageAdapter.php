@@ -1,6 +1,6 @@
 <?php
 
-namespace Wanglelecc\Laracms\Adapter;
+namespace Qiangzi\LaravelCms\Adapter;
 
 use League\Flysystem\AzureBlobStorage\AzureBlobStorageAdapter as AzureBlobStorageAdapterBase;
 use Illuminate\Support\Facades\Storage;

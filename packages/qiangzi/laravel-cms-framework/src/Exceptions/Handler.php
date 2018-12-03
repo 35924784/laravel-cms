@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Exceptions;
+namespace Qiangzi\LaravelCms\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;

@@ -13,15 +13,15 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
-use Wanglelecc\Laracms\Http\Controllers\Controller as BaseController;
+use Qiangzi\LaravelCms\Http\Controllers\Controller as BaseController;
 
 /**
  * Administrator 基础控制器
  *
  * Class Controller
- * @package Wanglelecc\Laracms\Http\Controllers
+ * @package Qiangzi\LaravelCms\Http\Controllers
  */
 class Controller extends BaseController
 {

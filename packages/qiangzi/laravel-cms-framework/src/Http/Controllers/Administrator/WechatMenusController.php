@@ -13,13 +13,13 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
-use Wanglelecc\Laracms\Models\Wechat;
-use Wanglelecc\Laracms\Models\WechatMenu;
+use Qiangzi\LaravelCms\Models\Wechat;
+use Qiangzi\LaravelCms\Models\WechatMenu;
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Requests\Administrator\WechatMenuRequest;
-use Wanglelecc\Laracms\Handlers\WechatMenuHandler;
+use Qiangzi\LaravelCms\Http\Requests\Administrator\WechatMenuRequest;
+use Qiangzi\LaravelCms\Handlers\WechatMenuHandler;
 use EasyWeChat\Factory;
 use EasyWeChat\Kernel\Exceptions\HttpException;
 
@@ -27,7 +27,7 @@ use EasyWeChat\Kernel\Exceptions\HttpException;
  * 微信菜单控制器
  *
  * Class WechatMenusController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class WechatMenusController extends Controller
 {

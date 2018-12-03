@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Policies;
+namespace Qiangzi\LaravelCms\Policies;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Models\WechatMenu;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Models\WechatMenu;
 
 /**
  * 微信菜单授权策略
  *
  * Class WechatMenuPolicy
- * @package Wanglelecc\Laracms\Policies
+ * @package Qiangzi\LaravelCms\Policies
  */
 class WechatMenuPolicy extends Policy
 {

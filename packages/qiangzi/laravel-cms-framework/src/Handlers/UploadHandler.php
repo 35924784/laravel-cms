@@ -13,18 +13,18 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Handlers;
+namespace Qiangzi\LaravelCms\Handlers;
 
 use Image;
 use Illuminate\HTTP\File;
 use Illuminate\Support\Facades\Storage;
-use Wanglelecc\Laracms\Models\File as FileModel;
+use Qiangzi\LaravelCms\Models\File as FileModel;
 
 /**
  * 文件上传工具类
  *
  * Class UploadHandler
- * @package Wanglelecc\Laracms\Handlers
+ * @package Qiangzi\LaravelCms\Handlers
  */
 class UploadHandler
 {

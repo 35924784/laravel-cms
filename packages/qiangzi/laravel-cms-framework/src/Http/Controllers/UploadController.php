@@ -13,21 +13,21 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers;
+namespace Qiangzi\LaravelCms\Http\Controllers;
 
 use Auth;
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Handlers\UploadHandler;
-use Wanglelecc\Laracms\Models\Article;
-use Wanglelecc\Laracms\Models\MultipleFile;
-use Wanglelecc\Laracms\Models\File;
+use Qiangzi\LaravelCms\Handlers\UploadHandler;
+use Qiangzi\LaravelCms\Models\Article;
+use Qiangzi\LaravelCms\Models\MultipleFile;
+use Qiangzi\LaravelCms\Models\File;
 use Vod\Request\V20170321 as Vod;
 
 /**
  * 文件上传控制器
  *
  * Class UploadController
- * @package Wanglelecc\Laracms\Http\Controllers
+ * @package Qiangzi\LaravelCms\Http\Controllers
  */
 class UploadController extends Controller
 {

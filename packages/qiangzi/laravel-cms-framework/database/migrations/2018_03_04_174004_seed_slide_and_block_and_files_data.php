@@ -16,10 +16,10 @@
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-use Wanglelecc\Laracms\Models\File;
-use Wanglelecc\Laracms\Models\Slide;
-use Wanglelecc\Laracms\Models\Block;
-use Wanglelecc\Laracms\Models\User;
+use Qiangzi\LaravelCms\Models\File;
+use Qiangzi\LaravelCms\Models\Slide;
+use Qiangzi\LaravelCms\Models\Block;
+use Qiangzi\LaravelCms\Models\User;
 
 
 class SeedSlideAndBlockAndFilesData extends Migration

@@ -13,13 +13,13 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Observers;
+namespace Qiangzi\LaravelCms\Observers;
 
 use Ip;
 use Auth;
 use Agent;
 use Request;
-use Wanglelecc\Laracms\Models\Log;
+use Qiangzi\LaravelCms\Models\Log;
 use Illuminate\Support\Carbon;
 
 // creating, created, updating, updated, saving,
@@ -29,7 +29,7 @@ use Illuminate\Support\Carbon;
  * 日志观察者
  *
  * Class LogObserver
- * @package Wanglelecc\Laracms\Observers
+ * @package Qiangzi\LaravelCms\Observers
  */
 class LogObserver
 {

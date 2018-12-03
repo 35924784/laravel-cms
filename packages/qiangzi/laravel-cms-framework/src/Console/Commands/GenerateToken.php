@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Console\Commands;
+namespace Qiangzi\LaravelCms\Console\Commands;
 
 use Illuminate\Console\Command;
-use Wanglelecc\Laracms\Models\User;
+use Qiangzi\LaravelCms\Models\User;
 
 /**
  * 调试 API 辅助工具 - 快速生成用户 Token
  *
  * Class GenerateToken
- * @package Wanglelecc\Laracms\Console\Commands
+ * @package Qiangzi\LaravelCms\Console\Commands
  */
 class GenerateToken extends Command
 {

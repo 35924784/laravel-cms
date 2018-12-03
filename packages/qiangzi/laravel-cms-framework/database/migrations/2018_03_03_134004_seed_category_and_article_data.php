@@ -16,10 +16,10 @@
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-use Wanglelecc\Laracms\Models\Article;
-use Wanglelecc\Laracms\Models\Category;
-use Wanglelecc\Laracms\Models\Page;
-use Wanglelecc\Laracms\Models\Navigation;
+use Qiangzi\LaravelCms\Models\Article;
+use Qiangzi\LaravelCms\Models\Category;
+use Qiangzi\LaravelCms\Models\Page;
+use Qiangzi\LaravelCms\Models\Navigation;
 
 
 class SeedCategoryAndArticleData extends Migration

@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
-use Wanglelecc\Laracms\Models\File;
+use Qiangzi\LaravelCms\Models\File;
 use Illuminate\Http\Request;
 
 /**
  * 媒体控制器
  *
  * Class MediaController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class MediaController extends Controller
 {

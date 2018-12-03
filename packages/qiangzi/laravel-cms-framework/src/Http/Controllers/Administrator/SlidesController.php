@@ -13,17 +13,17 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
-use Wanglelecc\Laracms\Models\Slide;
+use Qiangzi\LaravelCms\Models\Slide;
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Requests\Administrator\SlideRequest;
+use Qiangzi\LaravelCms\Http\Requests\Administrator\SlideRequest;
 
 /**
  * 幻灯片控制器
  *
  * Class SlidesController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class SlidesController extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Wanglelecc\Laracms\Providers;
+namespace Qiangzi\LaravelCms\Providers;
 
 use Storage;
 use OSS\OssClient;
@@ -8,7 +8,7 @@ use League\Flysystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
 use ApolloPY\Flysystem\AliyunOss\Plugins\PutFile;
 use ApolloPY\Flysystem\AliyunOss\Plugins\SignedDownloadUrl;
-use Wanglelecc\Laracms\Adapter\AliyunOssAdapter;
+use Qiangzi\LaravelCms\Adapter\AliyunOssAdapter;
 
 /**
  * Aliyun Oss ServiceProvider class.

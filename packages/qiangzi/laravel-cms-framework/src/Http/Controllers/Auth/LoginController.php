@@ -13,14 +13,14 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Auth;
+namespace Qiangzi\LaravelCms\Http\Controllers\Auth;
 
 use Illuminate\Support\Facades\Auth;
-use Wanglelecc\Laracms\Http\Controllers\Controller;
+use Qiangzi\LaravelCms\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Socialite;
-use Wanglelecc\Laracms\Models\User;
+use Qiangzi\LaravelCms\Models\User;
 
 class LoginController extends Controller
 {

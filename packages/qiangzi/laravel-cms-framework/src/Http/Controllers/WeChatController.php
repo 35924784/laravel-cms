@@ -13,21 +13,21 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers;
+namespace Qiangzi\LaravelCms\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Log;
-use Wanglelecc\Laracms\Models\Wechat;
+use Qiangzi\LaravelCms\Models\Wechat;
 use EasyWeChat\Kernel\Messages\Message;
 use EasyWeChat\Kernel\Messages\Transfer;
-use Wanglelecc\Laracms\Handlers\TextMessageHandler;
-use Wanglelecc\Laracms\Handlers\EventMessageHandler;
+use Qiangzi\LaravelCms\Handlers\TextMessageHandler;
+use Qiangzi\LaravelCms\Handlers\EventMessageHandler;
 
 /**
  * 微信控制器
  *
  * Class WeChatController
- * @package Wanglelecc\Laracms\Http\Controllers
+ * @package Qiangzi\LaravelCms\Http\Controllers
  */
 class WeChatController extends Controller
 {

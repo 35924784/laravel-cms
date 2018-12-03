@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Console\Commands;
+namespace Qiangzi\LaravelCms\Console\Commands;
 
 use Illuminate\Console\Command;
-use Wanglelecc\Laracms\Models\Block;
+use Qiangzi\LaravelCms\Models\Block;
 
 /**
  * 将区块同步到数据库
  *
  * Class SyncBlock
- * @package Wanglelecc\Laracms\Console\Commands
+ * @package Qiangzi\LaravelCms\Console\Commands
  */
 class SyncBlock extends Command
 {

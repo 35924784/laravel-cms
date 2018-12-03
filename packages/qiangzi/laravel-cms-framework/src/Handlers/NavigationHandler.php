@@ -13,17 +13,17 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Handlers;
+namespace Qiangzi\LaravelCms\Handlers;
 
-use Wanglelecc\Laracms\Http\Requests\Request;
-use Wanglelecc\Laracms\Models\Navigation;
-use Wanglelecc\Laracms\Models\Page;
+use Qiangzi\LaravelCms\Http\Requests\Request;
+use Qiangzi\LaravelCms\Models\Navigation;
+use Qiangzi\LaravelCms\Models\Page;
 
 /**
  * 导航处理工具类
  *
  * Class NavigationHandler
- * @package Wanglelecc\Laracms\Handlers
+ * @package Qiangzi\LaravelCms\Handlers
  */
 class NavigationHandler
 {

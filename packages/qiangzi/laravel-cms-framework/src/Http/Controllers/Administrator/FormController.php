@@ -13,20 +13,20 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
 use Hash;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
-use Wanglelecc\Laracms\Models\Form;
-use Wanglelecc\Laracms\Http\Requests\Administrator\UserRequest;
-use Wanglelecc\Laracms\Handlers\UploadHandler;
+use Qiangzi\LaravelCms\Models\Form;
+use Qiangzi\LaravelCms\Http\Requests\Administrator\UserRequest;
+use Qiangzi\LaravelCms\Handlers\UploadHandler;
 
 /**
  * 用户操作控制器
  *
  * Class UserController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class FormController extends Controller
 {

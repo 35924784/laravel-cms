@@ -16,7 +16,7 @@
                 <div class="pull-right" style="width: 250px;">
                 </div>
                 <div class="tools-group">
-                    @can('create', app(\Wanglelecc\Laracms\Models\Block::class))
+                    @can('create', app(\Qiangzi\LaravelCms\Models\Block::class))
                         <a href="{{ route('blocks.create') }}" class="btn btn-primary"><i class="icon icon-plus-sign"></i> 添加</a>
                     @endcan
                 </div>

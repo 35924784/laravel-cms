@@ -13,18 +13,18 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Console\Commands;
+namespace Qiangzi\LaravelCms\Console\Commands;
 
 use Illuminate\Console\Command;
 use TeamTNT\TNTSearch\TNTSearch;
-use Wanglelecc\Laracms\Models\Article;
-use Wanglelecc\Laracms\Handlers\TokenizerHandler;
+use Qiangzi\LaravelCms\Models\Article;
+use Qiangzi\LaravelCms\Handlers\TokenizerHandler;
 
 /**
  * 手动生成文章分词索引
  *
  * Class IndexArticle
- * @package Wanglelecc\Laracms\Console\Commands
+ * @package Qiangzi\LaravelCms\Console\Commands
  */
 class IndexArticle extends Command
 {

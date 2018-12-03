@@ -13,9 +13,9 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Observers;
+namespace Qiangzi\LaravelCms\Observers;
 
-use Wanglelecc\Laracms\Models\Navigation;
+use Qiangzi\LaravelCms\Models\Navigation;
 
 // creating, created, updating, updated, saving,
 // saved,  deleting, deleted, restoring, restored
@@ -24,7 +24,7 @@ use Wanglelecc\Laracms\Models\Navigation;
  * 导航观察者
  *
  * Class NavigationObserver
- * @package Wanglelecc\Laracms\Observers
+ * @package Qiangzi\LaravelCms\Observers
  */
 class NavigationObserver
 {
@@ -53,7 +53,7 @@ class NavigationObserver
 
     // 更新url
     public function saved(Navigation $navigation){
-        $link = app(\Wanglelecc\Laracms\Handlers\NavigationHandler::class)->createUrl($navigation);
+        $link = app(\Qiangzi\LaravelCms\Handlers\NavigationHandler::class)->createUrl($navigation);
         Navigation::where('id', $navigation->id)->update(['link'=>$link]);
     }
 

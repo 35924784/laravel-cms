@@ -13,18 +13,18 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers;
+namespace Qiangzi\LaravelCms\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Models\Article;
-use Wanglelecc\Laracms\Models\Category;
-use Wanglelecc\Laracms\Models\Navigation;
+use Qiangzi\LaravelCms\Models\Article;
+use Qiangzi\LaravelCms\Models\Category;
+use Qiangzi\LaravelCms\Models\Navigation;
 
 /**
  * 文章控制器
  *
  * Class ArticleController
- * @package Wanglelecc\Laracms\Http\Controllers
+ * @package Qiangzi\LaravelCms\Http\Controllers
  */
 class ArticleController extends Controller
 {

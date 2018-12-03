@@ -1,6 +1,6 @@
 <?php
 
-namespace Wanglelecc\Laracms\Http\Requests\Administrator;
+namespace Qiangzi\LaravelCms\Http\Requests\Administrator;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Auth;

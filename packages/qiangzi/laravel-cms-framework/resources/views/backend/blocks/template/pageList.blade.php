@@ -2,7 +2,7 @@
     $content = is_json($block->content) ? json_decode($block->content) : new \stdClass();
     $page_ids = get_value($content, 'page_id', []);
 
-    $page = app(\Wanglelecc\Laracms\Models\Page::class);
+    $page = app(\Qiangzi\LaravelCms\Models\Page::class);
     $pages = $page->where('type','=','page')->orderBy('order', 'desc')->orderBy('id','desc')->get()->pluck('title', 'id')->toArray();
 @endphp
 

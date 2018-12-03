@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Policies;
+namespace Qiangzi\LaravelCms\Policies;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Models\File;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Models\File;
 
 /**
  * 媒体授权策略
  *
  * Class WechatPolicy
- * @package Wanglelecc\Laracms\Policies
+ * @package Qiangzi\LaravelCms\Policies
  */
 class FilePolicy extends Policy
 {

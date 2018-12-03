@@ -1,6 +1,6 @@
 <?php
 
-namespace Wanglelecc\Laracms\Providers;
+namespace Qiangzi\LaravelCms\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -22,17 +22,17 @@ class EventServiceProvider extends ServiceProvider
         ],
 
         'Wanglelecc\LaracmsEvents\BehaviorLogEvent' => [
-            'Wanglelecc\Laracms\Listeners\BehaviorLogListener',
+            'Qiangzi\LaravelCms\Listeners\BehaviorLogListener',
         ],
 
-        'Wanglelecc\Laracms\Events\Event' => [
-            'Wanglelecc\Laracms\Listeners\EventListener',
+        'Qiangzi\LaravelCms\Events\Event' => [
+            'Qiangzi\LaravelCms\Listeners\EventListener',
         ],
 
 
 
 //        'Illuminate\Auth\Events\Login' => [
-//            'Wanglelecc\Laracms\Listeners\UserEventSubscriber@onUserLogin'
+//            'Qiangzi\LaravelCms\Listeners\UserEventSubscriber@onUserLogin'
 //        ],
     ];
 
@@ -42,7 +42,7 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $subscribe = [
-        'Wanglelecc\Laracms\Listeners\UserEventSubscriber',
+        'Qiangzi\LaravelCms\Listeners\UserEventSubscriber',
     ];
 
     /**

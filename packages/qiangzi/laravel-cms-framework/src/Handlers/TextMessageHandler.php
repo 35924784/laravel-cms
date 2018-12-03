@@ -13,19 +13,19 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Handlers;
+namespace Qiangzi\LaravelCms\Handlers;
 
-use Wanglelecc\Laracms\Http\Requests\Request;
-use Wanglelecc\Laracms\Models\WechatMenu;
-use Wanglelecc\Laracms\Models\Wechat;
-use Wanglelecc\Laracms\Models\WechatResponse;
+use Qiangzi\LaravelCms\Http\Requests\Request;
+use Qiangzi\LaravelCms\Models\WechatMenu;
+use Qiangzi\LaravelCms\Models\Wechat;
+use Qiangzi\LaravelCms\Models\WechatResponse;
 use EasyWeChat\Kernel\Contracts\EventHandlerInterface;
 
 /**
  * 微信文本消息处理
  *
  * Class TextMessageHandler
- * @package Wanglelecc\Laracms\Handlers
+ * @package Qiangzi\LaravelCms\Handlers
  */
 class TextMessageHandler
 {

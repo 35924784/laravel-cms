@@ -13,10 +13,10 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Requests\Administrator;
+namespace Qiangzi\LaravelCms\Http\Requests\Administrator;
 
 use Illuminate\Validation\Rule;
-use Wanglelecc\Laracms\Models\WechatMenu;
+use Qiangzi\LaravelCms\Models\WechatMenu;
 
 class WechatMenuRequest extends Request
 {

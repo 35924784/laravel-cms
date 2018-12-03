@@ -13,9 +13,9 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Transformers;
+namespace Qiangzi\LaravelCms\Transformers;
 
-use Wanglelecc\Laracms\Models\Article;
+use Qiangzi\LaravelCms\Models\Article;
 use League\Fractal\TransformerAbstract;
 
 class ArticleTransformer extends TransformerAbstract

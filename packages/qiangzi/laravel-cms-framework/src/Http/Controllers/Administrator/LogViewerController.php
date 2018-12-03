@@ -13,18 +13,18 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
 use Illuminate\Support\Facades\Crypt;
-use Wanglelecc\Laracms\Support\LogViewer;
-use Wanglelecc\Laracms\Models\Log;
+use Qiangzi\LaravelCms\Support\LogViewer;
+use Qiangzi\LaravelCms\Models\Log;
 use Illuminate\Http\Request;
 
 /**
  * Log 控制器
  *
  * Class LogViewerController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class LogViewerController extends Controller
 {

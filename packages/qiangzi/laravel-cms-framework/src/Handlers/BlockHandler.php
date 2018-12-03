@@ -13,20 +13,20 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Handlers;
-use Wanglelecc\Laracms\Models\Article;
-use Wanglelecc\Laracms\Models\Category;
-use Wanglelecc\Laracms\Models\Block;
-use Wanglelecc\Laracms\Models\Link;
-use Wanglelecc\Laracms\Models\Page;
-use Wanglelecc\Laracms\Models\Slide;
-use Wanglelecc\Laracms\Handlers\CategoryHandler;
+namespace Qiangzi\LaravelCms\Handlers;
+use Qiangzi\LaravelCms\Models\Article;
+use Qiangzi\LaravelCms\Models\Category;
+use Qiangzi\LaravelCms\Models\Block;
+use Qiangzi\LaravelCms\Models\Link;
+use Qiangzi\LaravelCms\Models\Page;
+use Qiangzi\LaravelCms\Models\Slide;
+use Qiangzi\LaravelCms\Handlers\CategoryHandler;
 
 /**
  * 区块工具类
  *
  * Class BlockHandler
- * @package Wanglelecc\Laracms\Handlers
+ * @package Qiangzi\LaravelCms\Handlers
  */
 class BlockHandler
 {

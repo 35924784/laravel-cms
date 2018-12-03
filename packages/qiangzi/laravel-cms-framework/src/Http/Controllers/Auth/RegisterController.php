@@ -13,10 +13,10 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Auth;
+namespace Qiangzi\LaravelCms\Http\Controllers\Auth;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Http\Controllers\Controller;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
@@ -77,7 +77,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \Wanglelecc\Laracms\Models\User
+     * @return \Qiangzi\LaravelCms\Models\User
      */
     protected function create(array $data)
     {

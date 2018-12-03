@@ -14,7 +14,7 @@
 @section('content')
 
     @php
-        $categoryHandler = app(\Wanglelecc\Laracms\Handlers\CategoryHandler::class);
+        $categoryHandler = app(\Qiangzi\LaravelCms\Handlers\CategoryHandler::class);
         $categoryItems = $categoryHandler->select($categoryHandler->getCategorys($type));
     @endphp
 

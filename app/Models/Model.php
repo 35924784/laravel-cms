@@ -15,7 +15,7 @@
 
 namespace App\Models;
 
-class Model extends Wanglelecc\Laracms\Models\Model
+class Model extends Qiangzi\LaravelCms\Models\Model
 {
 
 }

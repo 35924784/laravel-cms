@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Policies;
+namespace Qiangzi\LaravelCms\Policies;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Models\Form;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Models\Form;
 
 /**
  * 表单授权策略
  *
  * Class PagePolicy
- * @package Wanglelecc\Laracms\Policies
+ * @package Qiangzi\LaravelCms\Policies
  */
 class FormPolicy extends Policy
 {

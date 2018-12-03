@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Wanglelecc\Laracms\Exceptions;
+namespace Qiangzi\LaravelCms\Exceptions;
 
 class Exception extends \Exception
 {

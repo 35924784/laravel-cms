@@ -13,21 +13,21 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
 use DB;
-use Wanglelecc\Laracms\Models\Article;
+use Qiangzi\LaravelCms\Models\Article;
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Requests\Administrator\ArticleRequest;
-use Wanglelecc\Laracms\Handlers\CategoryHandler;
-use Wanglelecc\Laracms\Models\Category;
-use Wanglelecc\Laracms\Models\MultipleFile;
+use Qiangzi\LaravelCms\Http\Requests\Administrator\ArticleRequest;
+use Qiangzi\LaravelCms\Handlers\CategoryHandler;
+use Qiangzi\LaravelCms\Models\Category;
+use Qiangzi\LaravelCms\Models\MultipleFile;
 
 /**
  * 后台文章管理控制器
  *
  * Class ArticlesController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class ArticlesController extends Controller
 {

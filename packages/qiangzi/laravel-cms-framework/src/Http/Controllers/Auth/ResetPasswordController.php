@@ -13,9 +13,9 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Auth;
+namespace Qiangzi\LaravelCms\Http\Controllers\Auth;
 
-use Wanglelecc\Laracms\Http\Controllers\Controller;
+use Qiangzi\LaravelCms\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 use Illuminate\Http\Request;
 

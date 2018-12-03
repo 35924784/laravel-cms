@@ -1,11 +1,11 @@
 <?php
 
-namespace Wanglelecc\Laracms\Http\Controllers;
+namespace Qiangzi\LaravelCms\Http\Controllers;
 
-use Wanglelecc\Laracms\Models\Project;
+use Qiangzi\LaravelCms\Models\Project;
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Controllers\Controller;
-use Wanglelecc\Laracms\Http\Requests\ProjectRequest;
+use Qiangzi\LaravelCms\Http\Controllers\Controller;
+use Qiangzi\LaravelCms\Http\Requests\ProjectRequest;
 
 class ProjectsController extends Controller
 {

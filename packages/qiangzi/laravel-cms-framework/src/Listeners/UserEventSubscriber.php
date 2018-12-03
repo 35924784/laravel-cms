@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Listeners;
+namespace Qiangzi\LaravelCms\Listeners;
 
 use Request;
 use Illuminate\Support\Carbon;
@@ -68,17 +68,17 @@ class UserEventSubscriber
     {
         $events->listen(
             'Illuminate\Auth\Events\Login',
-            'Wanglelecc\Laracms\Listeners\UserEventSubscriber@onUserLoginLast'
+            'Qiangzi\LaravelCms\Listeners\UserEventSubscriber@onUserLoginLast'
         );
 
         $events->listen(
             'Illuminate\Auth\Events\Login',
-            'Wanglelecc\Laracms\Listeners\UserEventSubscriber@onUserLogin'
+            'Qiangzi\LaravelCms\Listeners\UserEventSubscriber@onUserLogin'
         );
 
         $events->listen(
             'Illuminate\Auth\Events\Logout',
-            'Wanglelecc\Laracms\Listeners\UserEventSubscriber@onUserLogout'
+            'Qiangzi\LaravelCms\Listeners\UserEventSubscriber@onUserLogout'
         );
     }
 }

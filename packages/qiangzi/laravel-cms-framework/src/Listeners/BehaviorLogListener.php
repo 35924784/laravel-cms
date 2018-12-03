@@ -1,8 +1,8 @@
 <?php
 
-namespace Wanglelecc\Laracms\Listeners;
+namespace Qiangzi\LaravelCms\Listeners;
 
-use Wanglelecc\Laracms\Events\BehaviorLogEvent;
+use Qiangzi\LaravelCms\Events\BehaviorLogEvent;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 

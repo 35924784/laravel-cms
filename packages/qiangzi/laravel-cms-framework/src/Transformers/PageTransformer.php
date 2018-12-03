@@ -13,9 +13,9 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Transformers;
+namespace Qiangzi\LaravelCms\Transformers;
 
-use Wanglelecc\Laracms\Models\Page;
+use Qiangzi\LaravelCms\Models\Page;
 use League\Fractal\TransformerAbstract;
 
 class PageTransformer extends TransformerAbstract

@@ -13,16 +13,16 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Handlers;
+namespace Qiangzi\LaravelCms\Handlers;
 
-use Wanglelecc\Laracms\Http\Requests\Request;
-use Wanglelecc\Laracms\Models\WechatMenu;
+use Qiangzi\LaravelCms\Http\Requests\Request;
+use Qiangzi\LaravelCms\Models\WechatMenu;
 
 /**
  * 微信菜单工具类
  *
  * Class WechatMenuHandler
- * @package Wanglelecc\Laracms\Handlers
+ * @package Qiangzi\LaravelCms\Handlers
  */
 class WechatMenuHandler
 {

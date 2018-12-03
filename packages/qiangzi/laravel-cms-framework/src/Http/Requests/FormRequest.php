@@ -13,10 +13,10 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Requests;
+namespace Qiangzi\LaravelCms\Http\Requests;
 
 use Illuminate\Validation\Rule;
-use Wanglelecc\Laracms\Models\Form;
+use Qiangzi\LaravelCms\Models\Form;
 
 class FormRequest extends Request
 {

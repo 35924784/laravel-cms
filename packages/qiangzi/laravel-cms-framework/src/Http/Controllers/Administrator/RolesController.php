@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Role;
@@ -23,7 +23,7 @@ use Spatie\Permission\Models\Permission;
  * 角色控制器
  *
  * Class RolesController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class RolesController extends Controller
 {

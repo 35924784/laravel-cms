@@ -13,18 +13,18 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Api\V1;
+namespace Qiangzi\LaravelCms\Http\Controllers\Api\V1;
 
-use Wanglelecc\Laracms\Models\User;
-use Wanglelecc\Laracms\Http\Controllers\Api\Controller;
-use Wanglelecc\Laracms\Http\Requests\Api\V1\SocialAuthorizationRequest;
-use Wanglelecc\Laracms\Http\Requests\Api\V1\AuthorizationRequest;
+use Qiangzi\LaravelCms\Models\User;
+use Qiangzi\LaravelCms\Http\Controllers\Api\Controller;
+use Qiangzi\LaravelCms\Http\Requests\Api\V1\SocialAuthorizationRequest;
+use Qiangzi\LaravelCms\Http\Requests\Api\V1\AuthorizationRequest;
 
 /**
  * 认证控制器
  *
  * Class AuthorizationsController
- * @package Wanglelecc\Laracms\Http\Controllers\Api\V1
+ * @package Qiangzi\LaravelCms\Http\Controllers\Api\V1
  */
 class AuthorizationsController extends Controller
 {

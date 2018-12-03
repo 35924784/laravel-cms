@@ -13,7 +13,7 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Requests\Api\V1;
+namespace Qiangzi\LaravelCms\Http\Requests\Api\V1;
 
 class VerificationCodeRequest extends Request
 {

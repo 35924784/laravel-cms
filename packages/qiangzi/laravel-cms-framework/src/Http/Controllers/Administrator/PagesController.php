@@ -13,17 +13,17 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Administrator;
+namespace Qiangzi\LaravelCms\Http\Controllers\Administrator;
 
-use Wanglelecc\Laracms\Models\Page;
+use Qiangzi\LaravelCms\Models\Page;
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Requests\Administrator\PageRequest;
+use Qiangzi\LaravelCms\Http\Requests\Administrator\PageRequest;
 
 /**
  * 页面控制器
  *
  * Class PagesController
- * @package Wanglelecc\Laracms\Http\Controllers\Administrator
+ * @package Qiangzi\LaravelCms\Http\Controllers\Administrator
  */
 class PagesController extends Controller
 {

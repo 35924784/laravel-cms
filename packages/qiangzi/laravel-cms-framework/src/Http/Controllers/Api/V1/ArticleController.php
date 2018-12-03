@@ -13,19 +13,19 @@
  * @version   Release 1.0
  */
 
-namespace Wanglelecc\Laracms\Http\Controllers\Api\V1;
+namespace Qiangzi\LaravelCms\Http\Controllers\Api\V1;
 
 use Illuminate\Http\Request;
-use Wanglelecc\Laracms\Http\Controllers\Api\Controller;
-use Wanglelecc\Laracms\Transformers\ArticleTransformer;
-use Wanglelecc\Laracms\Models\Article;
-use Wanglelecc\Laracms\Models\Category;
+use Qiangzi\LaravelCms\Http\Controllers\Api\Controller;
+use Qiangzi\LaravelCms\Transformers\ArticleTransformer;
+use Qiangzi\LaravelCms\Models\Article;
+use Qiangzi\LaravelCms\Models\Category;
 
 /**
  * 文章控制器
  *
  * Class ArticleController
- * @package Wanglelecc\Laracms\Http\Controllers\Api\V1
+ * @package Qiangzi\LaravelCms\Http\Controllers\Api\V1
  */
 class ArticleController extends Controller
 {
