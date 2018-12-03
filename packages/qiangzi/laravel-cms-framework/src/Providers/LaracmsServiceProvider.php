@@ -101,6 +101,7 @@ class LaracmsServiceProvider extends ServiceProvider
             ], 'config');
     
             $this->publishes([
+                __DIR__.'/../../resources/assets/js/fonts'           => public_path('fonts'),
                 __DIR__.'/../../resources/assets'           => public_path('vendor/laracms'),
                 __DIR__.'/../../resources/assets/images'    => public_path('images'),
                 
